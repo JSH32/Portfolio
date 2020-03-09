@@ -14,8 +14,8 @@ const Index = (props) => (
   </Layout>
 );
 
-Index.getInitialProps = async () => {
-  const res = await fetch('http://192.168.1.9:3000/api/hello')
+Index.getInitialProps = async ({req}) => {
+  const res = await fetch('https://8081.cobalt.live/api/hello')
   const data = await res.json()
   return { data: data }
 }
