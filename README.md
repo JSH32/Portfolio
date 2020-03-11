@@ -1,2 +1,2 @@
 # Portfolio
-My portfolio built in react(nextjs)
+My portfolio built in react/nextjs
