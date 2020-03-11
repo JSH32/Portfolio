@@ -1,4 +1,3 @@
-  
 class Artwork extends React.Component {
 
     render() {
